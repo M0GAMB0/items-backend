@@ -26,7 +26,7 @@ public class ItemController {
     }
     @GetMapping("/search-item")
     public ResponseEntity<List<Item>> search(@RequestParam String name){
-        List<Item> itemList=itemService.getAll();
+        List<Item> itemList=itemService.search(name);
         return new ResponseEntity<List<Item>>(itemList,HttpStatus.CREATED);
     }
 }
