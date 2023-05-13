@@ -1,5 +1,5 @@
 # HostBuddy Backend SpringBoot
-Simple implementation of Synchronizer Token Pattern to prevent CSRF using Java Spring Boot 
+This is backend application for hostbuddy assignment of items add,view and search
 
 ## Steps to run
 1. Build the project using
