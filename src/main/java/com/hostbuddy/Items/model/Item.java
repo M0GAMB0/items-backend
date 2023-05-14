@@ -1,5 +1,5 @@
 package com.hostbuddy.Items.model;
-
+// it is blueprint of item object in backend
 public class Item {
     private String name;
     private String description;
@@ -11,7 +11,7 @@ public class Item {
         this.name = name;
         this.description = description;
     }
-
+    //getter and setter
     public String getName() {
         return name;
     }
