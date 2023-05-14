@@ -4,7 +4,7 @@ import com.hostbuddy.Items.model.Item;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+//Interface of services provided by backend
 @Service
 public interface ItemService {
     public Item addItem(Item item);
